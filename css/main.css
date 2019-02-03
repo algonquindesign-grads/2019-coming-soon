@@ -51,17 +51,24 @@ body {
   width: 156px;
 }
 
+.upper {
+  text-transform: uppercase;
+}
+
 h1,
 .secondary-font {
   font-family: var(--font-secondary);
   text-shadow: 8px 2px 1px var(--highlight-secondary-colour);
+  text-transform: uppercase;
 }
 
 .highlight-text {
   color: var(--highlight-colour);
+  text-transform: uppercase;
 }
 
 .secondary-font {
+  text-transform: uppercase;
   text-shadow: 4px 2px 1px var(--highlight-secondary-colour);
 
 }
