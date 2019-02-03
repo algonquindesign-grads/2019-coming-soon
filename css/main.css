@@ -1,0 +1,149 @@
+:root {
+  --primary-colour: #6f156c;
+  --secondary-colour: #f8d485;
+  --thirtiary-colour: #fd678a;
+  --dark-colour: #010029;
+
+  --accent-colour: #25adcd;
+
+  --highlight-colour: #ffe9b3;
+  --highlight-secondary-colour: #ff329c;
+  --white-colour: #fff;
+
+  --font-primary: "Proxima nova", Arial, sans-serif;
+  --font-secondary: cortado, sans-serif;
+}
+
+html {
+  min-height: 100vh;
+  background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0, 0, 0, .1) 2px, rgba(0, 0, 0, .1) 6px), linear-gradient(-215deg, #f8d485, #fd678a,  #6f156c, #010029 80%);
+
+}
+
+body {
+  font-family: var(--font-primary);
+  background-image: url('../images/palm-trees.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--white-colour);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ul-max-width {
+  max-width: 16em;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.max-width {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 48em;
+  width: 100%;
+}
+
+
+.i-logo {
+  height: 85px;
+  width: 156px;
+}
+
+h1,
+.secondary-font {
+  font-family: var(--font-secondary);
+  text-shadow: 8px 2px 1px var(--highlight-secondary-colour);
+}
+
+.highlight-text {
+  color: var(--highlight-colour);
+}
+
+.secondary-font {
+  text-shadow: 4px 2px 1px var(--highlight-secondary-colour);
+
+}
+
+.border-outer {
+  border: 6px solid rgba(255, 233, 179, .6);
+}
+
+.border-bottom {
+  border: 6px solid rgba(255, 233, 179, .6);
+  border-bottom: none;
+}
+
+.pin-title {
+  position: static;
+}
+
+#facebook,
+#instagram {
+  fill: var(--white-colour);
+}
+
+.icon:hover #facebook,
+.icon:hover #instagram {
+  fill: var(--accent-colour);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .pin-title {
+    position: absolute;
+    top: -40px;
+    right: -8%;
+  }
+
+  h1.yotta {
+    line-height: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 42em) {
+
+  .pin-title {
+    position: absolute;
+    top: -40px;
+    right: -5%;
+  }
+
+}
+
+@media only screen and (min-width: 46em) {
+
+  .pin-title {
+    position: absolute;
+    top: -40px;
+    right: 50px;
+  }
+
+}
+
+
+@media only screen and (min-width: 60em) {
+
+  .i-logo {
+    height: 85px;
+    width: 220px;
+  }
+
+  .pin-title {
+    position: absolute;
+    top: -40px;
+    right: 50px;
+  }
+
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  body {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
