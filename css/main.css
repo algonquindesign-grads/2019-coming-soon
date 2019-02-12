@@ -87,12 +87,14 @@ h1,
 }
 
 #facebook,
-#instagram {
+#instagram,
+#calendar {
   fill: var(--white-colour);
 }
 
 .icon:hover #facebook,
-.icon:hover #instagram {
+.icon:hover #instagram,
+.icon:hover #calendar {
   fill: var(--accent-colour);
 }
 
