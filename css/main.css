@@ -10,7 +10,7 @@
   --highlight-secondary-colour: #ff329c;
   --white-colour: #fff;
 
-  --font-primary: "Proxima nova", Arial, sans-serif;
+  --font-primary: proxima-nova, sans-serif;
   --font-secondary: cortado, sans-serif;
 }
 
@@ -58,7 +58,7 @@ body {
 h1,
 .secondary-font {
   font-family: var(--font-secondary);
-  text-shadow: 8px 2px 1px var(--highlight-secondary-colour);
+  text-shadow: 3px 2px 1px var(--highlight-secondary-colour);
   text-transform: uppercase;
 }
 
@@ -69,7 +69,7 @@ h1,
 
 .secondary-font {
   text-transform: uppercase;
-  text-shadow: 4px 2px 1px var(--highlight-secondary-colour);
+  text-shadow: 3px 2px 1px var(--highlight-secondary-colour);
 
 }
 
